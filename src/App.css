@@ -1,38 +1,268 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar__all {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav__list {
+  display: flex;
+  justify-content: flex-end;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.me-auto {
+  margin-left: 100%;
+}
+.header_content {
+  height: 70vh;
+  background: url("./Components/Imgs/background.jpg") center/cover no-repeat;
+  background-attachment: fixed;
+}
+.header__content-left {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 70vh;
+}
+.header__content-left img {
+  height: 80%;
+  width: 60%;
+  object-fit: cover;
+}
+.header__content-right {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.header__content-btn {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 150px;
+  background: transparent;
+  transition: 0.3s;
+  color: rgb(255, 0, 0);
+  font-size: 20px;
+  border-radius: 3px;
+  border: 3px solid green;
+  margin-top: 50px;
+  background: rgba(0, 0, 0, 0.753);
+}
+.header__content-right button:hover {
+  border: 3px solid red;
+  color: green;
+  background: rgba(0, 0, 0, 0.753);
+  box-shadow: 2px 2px 4px rgba(187, 187, 187, 0.404);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.section__one{
+  background: url('./Components/Imgs/main bg.jpg');
 }
+
+.section__items{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.section__item{
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  padding: 0px 10px;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(31,65,71,1) 100%);
+  color: white;
+  border-radius: 10px;
+  position: relative;
+}
+.question__icons{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 25px;
+  background: transparent;
+}
+.section_title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+.section_title h2{ 
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  display:inline-block;
+  transition-property: transform;
+  transition: 0.25s ease;
+  margin: 20px auto;
+  width: auto;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+.section_title h2::after {
+  content: '';
+  border-top: 3px solid rgb(255, 0, 0);
+  width: 100%;
+  position: absolute;
+  display: block;
+  transform: rotateY(90deg);
+  transition:transform 0.25s linear;
+}
+.section_title h2:hover {
+  transform: scale(1);
+}
+.section_title h2:hover::after {
+  transform: rotate(0deg);
+}
+
+.section_other-item{
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  padding: 0px 10px;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(31,65,71,1) 100%);
+  color: white;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+.section__button{
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #54b3d6;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  margin-top: 40px;
+  padding: 10px;
+  background: transparent;
+  border: 3px solid red;
+  font-size: 18px;
+  margin-bottom: 60px;
+  border-radius: 5px;
+}
+.section__button a{
+  text-decoration: none;
+  color: red;
+  font-weight: 700;
+}
+.section__button a:hover{
+  text-decoration: none;
+  color: red;
+  font-weight: 700;
+}
+/* .section__button:hover{
+  border: 3px solid green;
+  transform: scale(1.03);
+} */
+
+.section__button {
+ 
+}
+.section__button:hover {
+  box-shadow: inset 400px 0 0 0 green;
+  color: white;
+}
+.parent_btn{
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Acardion style */
+.accordion-wrapper .accordion-item h3.accordion-title {
+  font-size: 1.75rem;
+  margin: 0;
+}
+
+.accordion-wrapper .accordion-item h3.accordion-title button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: #c4c4c4;
+  border-radius: 1rem;
+  border: none;
+  font-size: 1.2rem;
+  width: 100%;
+  text-align: left;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  padding: 1rem;
+}
+
+.accordion-wrapper .accordion-item h3.accordion-title button.active {
+  background-color: #dfbd85;
+  color: #ffffff;
+  border: #dfbd85 solid 1px;
+}
+
+.accordion-wrapper .accordion-item h3.accordion-title button:hover {
+    background-color: #dfbd85;
+}
+
+.accordion-wrapper .accordion-item h3.accordion-title button span.title-wrapper {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.accordion-wrapper .accordion-item h3.accordion-title button span.icon-wrapper {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.accordion-wrapper .accordion-item h3.accordion-title button span.icon-wrapper span.minus {
+  content: url('./Components/Imgs/line.svg');
+  width: 24px;
+  height: 24px;
+}
+
+.accordion-wrapper .accordion-item h3.accordion-title button span.icon-wrapper span.plus {
+  content: url('./Components/Imgs/plus.svg');
+  width: 24px;
+  height: 24px;
+  transform: rotate(90deg);
+  transition-timing-function: ease-in;
+  transition: all 0.3s;
+}
+
+.accordion-wrapper .accordion-item .accordion-panel .panel-close { 
+  background: #e0e0e0;
+  box-sizing: border-box;
+  padding: 0.5rem 1rem 0 1rem;
+  opacity:0;
+  width:100%;
+  height:0;
+  overflow: hidden;
+  transition-timing-function: ease-out;
+  transition: all 0.3s;
+}
+
+.accordion-wrapper .accordion-item .accordion-panel .panel-open {
+  overflow: hidden;
+  background: #e0e0e0;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  border-radius: 1rem;
+  opacity:1;
+  width:100%;
+  height: auto;
+  transition-timing-function: ease-in;
+  transition: all 0.3s;
+}
+
+.accordion-wrapper .accordion-item .accordion-panel p {
+  margin: 0;
+}
+
