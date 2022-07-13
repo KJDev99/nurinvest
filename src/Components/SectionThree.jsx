@@ -3,7 +3,7 @@ import  Accordion  from "./Accordion";
 
 function SectionThree(props) {
   return (
-    <div className="section__three">
+    <div id="sec_three" className="section__three">
       <div className="container">
         <div className="row">
           <div className="section_title col-lg-12">
