@@ -236,7 +236,7 @@ function BasicExample() {
       </Accordion.Item>
       <Accordion.Item eventKey="12">
         <Accordion.Header>
-        Modul - 13: Bozorning oltin qoidalari
+          Modul - 13: Bozorning oltin qoidalari
         </Accordion.Header>
         <Accordion.Body>
           <ul className="accordion_list">
@@ -246,13 +246,14 @@ function BasicExample() {
             <li>4- qoida</li>
             <li>Trade Management</li>
           </ul>
-          <b><span>Natija</span> Modul orqali bozordagi eng kerakli oltin qoidalarni tushunish va intizom hosil qilish imkoniga ega bo'lasiz.</b>
+          <b>
+            <span>Natija</span> Modul orqali bozordagi eng kerakli oltin
+            qoidalarni tushunish va intizom hosil qilish imkoniga ega bo'lasiz.
+          </b>
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="13">
-        <Accordion.Header>
-        Modul - 14: Savdo uchun g'oya
-        </Accordion.Header>
+        <Accordion.Header>Modul - 14: Savdo uchun g'oya</Accordion.Header>
         <Accordion.Body>
           <ul className="accordion_list">
             <li>Reddit, Twitter, Discord</li>
@@ -263,12 +264,15 @@ function BasicExample() {
             <li>3-4-strategiya</li>
             <li>5-strategiya</li>
           </ul>
-          <b><span>Natija:</span> Modul orqali savdo qilish uchun strategiya va kerakli aksiyalarni topishni o'rganasiz.</b>
+          <b>
+            <span>Natija:</span> Modul orqali savdo qilish uchun strategiya va
+            kerakli aksiyalarni topishni o'rganasiz.
+          </b>
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="14">
         <Accordion.Header>
-        Modul - 15: Swing Trade - Shaxsiy uslubim
+          Modul - 15: Swing Trade - Shaxsiy uslubim
         </Accordion.Header>
         <Accordion.Body>
           <ul className="accordion_list">
@@ -276,12 +280,15 @@ function BasicExample() {
             <li>Trading - Telefonda</li>
             <li>Tayyor report'dan foydalanish</li>
           </ul>
-          <b><span>Natija:</span> Modul orqali o’qituvchining shaxsiy uslubi va swing trading (treydingning yana bir uslubi) bilan tanishasiz.</b>
+          <b>
+            <span>Natija:</span> Modul orqali o’qituvchining shaxsiy uslubi va
+            swing trading (treydingning yana bir uslubi) bilan tanishasiz.
+          </b>
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="15">
         <Accordion.Header>
-        Modul - 16: Kichik byudjet bilan boshlash
+          Modul - 16: Kichik byudjet bilan boshlash
         </Accordion.Header>
         <Accordion.Body>
           <ul className="accordion_list">
@@ -290,12 +297,15 @@ function BasicExample() {
             <li>Demo akkaunt amaliyot</li>
             <li>Penny stocks – Test</li>
           </ul>
-          <b><span>Natija:</span> Modul orqali kichik summa bilan qanday uslubda ishlash haqida tavsiyalarga ega bo'lasiz.</b>
+          <b>
+            <span>Natija:</span> Modul orqali kichik summa bilan qanday uslubda
+            ishlash haqida tavsiyalarga ega bo'lasiz.
+          </b>
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="16">
         <Accordion.Header>
-        Modul - 17: TD Ameritrade - Real akkaunt
+          Modul - 17: TD Ameritrade - Real akkaunt
         </Accordion.Header>
         <Accordion.Body>
           <ul className="accordion_list">
@@ -306,12 +316,15 @@ function BasicExample() {
             <li>Bankda hisob raqami ochish - onlayn</li>
             <li>Rezidentlik olish - onlayn</li>
           </ul>
-          <b><span>Natija:</span> Modul orqali TD Ameritrade brokerdan ro’yxatdan o’tish va kerakli hujjatlarni tayyorlashni o'rganasiz</b>
+          <b>
+            <span>Natija:</span> Modul orqali TD Ameritrade brokerdan ro’yxatdan
+            o’tish va kerakli hujjatlarni tayyorlashni o'rganasiz
+          </b>
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="17">
         <Accordion.Header>
-        Modul - 18: Interactive Brokers – Real hisob raqam
+          Modul - 18: Interactive Brokers – Real hisob raqam
         </Accordion.Header>
         <Accordion.Body>
           <ul className="accordion_list">
@@ -323,13 +336,16 @@ function BasicExample() {
             <li>Transferwise</li>
             <li>Broker va investitsiya platformalarini tanlash</li>
           </ul>
-          <b><span>Natija:</span> Modul orqali Interactive brokers'dan ro’yxatdan o’tish, onlayn bepul treyding platformani ishlatish, yangi broker akkauntlarni tekshirish va tanlash haqida ma’lumotlarni olishingiz mumkin.</b>
+          <b>
+            <span>Natija:</span> Modul orqali Interactive brokers'dan ro’yxatdan
+            o’tish, onlayn bepul treyding platformani ishlatish, yangi broker
+            akkauntlarni tekshirish va tanlash haqida ma’lumotlarni olishingiz
+            mumkin.
+          </b>
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="18">
-        <Accordion.Header>
-        Modul - 19: Kerakli ma’lumotlar
-        </Accordion.Header>
+        <Accordion.Header>Modul - 19: Kerakli ma’lumotlar</Accordion.Header>
         <Accordion.Body>
           <ul className="accordion_list">
             <li>Treyding uslubi</li>
@@ -338,13 +354,15 @@ function BasicExample() {
             <li>Treyding vositalar</li>
             <li>Treyder qachon investitsiya olishi kerak?</li>
           </ul>
-          <b><span>Natija:</span> Modul orqali treyder uslublari, savdo uchun kerakli tavsiya va vositalar, shuningdek treyder qachon investordan pul olsa bo’lishi haqida tushunchalarga ega bo'lasiz.</b>
+          <b>
+            <span>Natija:</span> Modul orqali treyder uslublari, savdo uchun
+            kerakli tavsiya va vositalar, shuningdek treyder qachon investordan
+            pul olsa bo’lishi haqida tushunchalarga ega bo'lasiz.
+          </b>
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="19">
-        <Accordion.Header>
-        Modul - 20: Risk menejment
-        </Accordion.Header>
+        <Accordion.Header>Modul - 20: Risk menejment</Accordion.Header>
         <Accordion.Body>
           <ul className="accordion_list">
             <li>Risk menejment - Kirish</li>
@@ -354,13 +372,14 @@ function BasicExample() {
             <li>Stop'ni qayerga qo’yish kerak?</li>
             <li>Risk menejment reja</li>
           </ul>
-          <b><span>Natija:</span> Modul orqali savdodagi tavakkal (risk)ni aniqlash, boshqarish va unga yarasha foydani aniqlashni o'rganasiz.</b>
+          <b>
+            <span>Natija:</span> Modul orqali savdodagi tavakkal (risk)ni
+            aniqlash, boshqarish va unga yarasha foydani aniqlashni o'rganasiz.
+          </b>
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="20">
-        <Accordion.Header>
-        Modul - 21: Treyd menejment
-        </Accordion.Header>
+        <Accordion.Header>Modul - 21: Treyd menejment</Accordion.Header>
         <Accordion.Body>
           <ul className="accordion_list">
             <li>Treyd menejment - Kirish</li>
@@ -369,12 +388,16 @@ function BasicExample() {
             <li>Treyding uchun eng zo’r kitob</li>
             <li>KPI qo’yish</li>
           </ul>
-          <b><span>Natija</span>Modul orqali savdolarni to’g’ri boshqarish, daromadni saqlab qolish va oshirish uchun kerakli bilimlarga ega bo'lasiz.</b>
+          <b>
+            <span>Natija</span>Modul orqali savdolarni to’g’ri boshqarish,
+            daromadni saqlab qolish va oshirish uchun kerakli bilimlarga ega
+            bo'lasiz.
+          </b>
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="21">
         <Accordion.Header>
-        Modul - 22: Ruhiy holat - Psixologiya
+          Modul - 22: Ruhiy holat - Psixologiya
         </Accordion.Header>
         <Accordion.Body>
           <ul className="accordion_list">
@@ -386,13 +409,15 @@ function BasicExample() {
             <li>Psixologik intizomlar</li>
             <li>Treyding psixologiyasi</li>
           </ul>
-          <b><span>Natija:</span> Modul orqali savdolar vaqtida treyder o’zini hissiy jihatdan qanday ushlashi kerakligi haqida bilimlarga ega bo'lasiz.</b>
+          <b>
+            <span>Natija:</span> Modul orqali savdolar vaqtida treyder o’zini
+            hissiy jihatdan qanday ushlashi kerakligi haqida bilimlarga ega
+            bo'lasiz.
+          </b>
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="22">
-        <Accordion.Header>
-        Modul - 23: Bonus
-        </Accordion.Header>
+        <Accordion.Header>Modul - 23: Bonus</Accordion.Header>
         <Accordion.Body>
           <ul className="accordion_list">
             <li>Portfolio yaratish</li>
