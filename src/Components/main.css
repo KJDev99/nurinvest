@@ -1,0 +1,25 @@
+.igmoq{
+    width: 600px !important;
+}
+.title_header{
+    font-size: 70px;
+}
+.text_header{
+    font-size: 20px;
+}
+
+
+/* =================================== navbar =========================================== */
+.navbar1{
+    background-color: #000103;
+    /* background-color: transpare   nt !important; */
+}
+.navbar2{
+    color: #fff !important;
+    font-size: 30px;
+    font-weight: 600 !important;
+}
+.nav3{
+    width: 300px;
+    color: #fff !important;
+}
