@@ -15,8 +15,8 @@ function BasicExample() {
             <li>Birjada narxni kim boshqaradi?</li>
             <li>Savdo qilish uchun tayyorgarlik</li>
           </ul>
-          <b>
-            <span>Natija:</span> Modul orqali birja qanday ishlashi va
+          <b className="acc_resultat">
+            <span >Natija:</span> Modul orqali birja qanday ishlashi va
             strukturasini to’liq tushunasiz, birjada kimlar borligi, aksiya
             qanday ishlashi haqida ma'lumotga ega bo'lasiz.
           </b>
@@ -36,7 +36,7 @@ function BasicExample() {
             <li>TD Ameritradeda order berish</li>
             <li>Thinkorswim sozlash</li>
           </ul>
-          <b>
+          <b className="acc_resultat">
             <span>Natija:</span> Modul orqali treyding bo’yicha to’liq
             tushunchalarga ega bo'lasiz, savdo qilish qoidalari, halol savdo
             qilish uchun kerakli ma'lumotlarni, brokerdan demo hisob raqami
@@ -65,7 +65,7 @@ function BasicExample() {
             <li>Volume haqida haqiqatlar</li>
             <li>Tape Reading</li>
           </ul>
-          <b>
+          <b className="acc_resultat">
             <span>Natija:</span> Modul orqali aksiya narxining harakatlanishini
             kerakli vositalar yordamida bemalol taxmin (prognoz) qila olish
             ko'nikmasiga ega bo'lasiz.{" "}
@@ -86,7 +86,7 @@ function BasicExample() {
             <li>Chashka figura</li>
             <li>Amalda qo’llash</li>
           </ul>
-          <b>
+          <b className="acc_resultat">
             <span>Natija:</span> Modul orqali texnik tahlildagi kerakli
             figuralar bilan tanishib, ular orqali bemalol tahlil qilishni
             o'rganasiz, shuningdek ular ortidagi psixologiya va ma’noni
@@ -105,7 +105,7 @@ function BasicExample() {
             <li>Fibonacci</li>
             <li>EMS</li>
           </ul>
-          <b>
+          <b className="acc_resultat">
             <span>Natija:</span> Modul orqali texnik tahlildagi kerakli
             indikatorlar yordamida yana ham aniqroq tahlil qilish va savdoga
             kirish-chiqish nuqtalarini aniqroq bilish qobiliyatiga ega bo'lasiz,
@@ -121,7 +121,7 @@ function BasicExample() {
             <li>Watchlist'dagi xilma-xillik</li>
             <li>Screening qilish</li>
           </ul>
-          <b>
+          <b className="acc_resultat">
             <span>Natija:</span> Modul orqali bozorni, aksiyalarni kuzatib
             borishda va kerakli savdolarga kirishda qulay ro’yxatlarni tuzib,
             ularni tahlil qilishni o'rganasiz.
@@ -139,7 +139,7 @@ function BasicExample() {
             <li>Fundamental tahlil (1-qism)</li>
             <li>Fundamental tahlil (2-qism)</li>
           </ul>
-          <b>
+          <b className="acc_resultat">
             <span>Natija:</span> Modul orqali birjadagi sektorlar, hujjatlar va
             shu kabi investitsion ma’lumotlar haqida kerakli bilimlarni olasiz,
             fundamental tahlil qilishni bemalol amalga oshirishni o'rganasiz.
@@ -156,7 +156,7 @@ function BasicExample() {
             <li>Option'lar</li>
             <li>Short Squeeze</li>
           </ul>
-          <b>
+          <b className="acc_resultat">
             <span>Natija:</span> Modul orqali birjada investitsiya qilish uchun
             kerakli barcha bilim va vositalarni olasiz.
           </b>
@@ -173,7 +173,7 @@ function BasicExample() {
             <li>Investitsiya kelishuvlari</li>
             <li>Alternativ investitsiya platformalari </li>
           </ul>
-          <b>
+          <b className="acc_resultat">
             <span>Natija: </span> Modul orqali passiv holatda investitsiya
             qilish va halol bo’lgan platformalar haqida to’liq tushunchalarga
             ega bo'lasiz.
@@ -191,7 +191,7 @@ function BasicExample() {
             <li>Takaful</li>
             <li>Shartnomalar</li>
           </ul>
-          <b>
+          <b className="acc_resultat">
             <span>Natija:</span>Modul orqali Islom moliyasi haqida boshlang’ich
             tushuncha va undagi yo’nalish, sohalar haqida ma’lumotlarga ega
             bo'lasiz.
@@ -210,7 +210,7 @@ function BasicExample() {
             <li>Nojoiz savdolar (2- qism)</li>
             <li>Forex haqida</li>
           </ul>
-          <b>
+          <b className="acc_resultat">
             <span>Natija:</span> Modul orqali treyding va investitsiya
             sohasidagi halol va harom savdolar haqida to’liq tushuncha, fatvolar
             bilan tanishasiz.
@@ -228,7 +228,7 @@ function BasicExample() {
             <li>Shukru, Sahih invest, Muslimxchange</li>
             <li>Islom moliyasiga qiziquvchilar uchun</li>
           </ul>
-          <b>
+          <b className="acc_resultat">
             <span>Natija:</span> Modul orqali halol aksiyalar, tayyor tekshirib
             beruvchi arzon va tekin platformalar haqida to’liq tushuncha olasiz.
           </b>
@@ -246,7 +246,7 @@ function BasicExample() {
             <li>4- qoida</li>
             <li>Trade Management</li>
           </ul>
-          <b>
+          <b className="acc_resultat">
             <span>Natija</span> Modul orqali bozordagi eng kerakli oltin
             qoidalarni tushunish va intizom hosil qilish imkoniga ega bo'lasiz.
           </b>
@@ -264,7 +264,7 @@ function BasicExample() {
             <li>3-4-strategiya</li>
             <li>5-strategiya</li>
           </ul>
-          <b>
+          <b className="acc_resultat">
             <span>Natija:</span> Modul orqali savdo qilish uchun strategiya va
             kerakli aksiyalarni topishni o'rganasiz.
           </b>
@@ -280,7 +280,7 @@ function BasicExample() {
             <li>Trading - Telefonda</li>
             <li>Tayyor report'dan foydalanish</li>
           </ul>
-          <b>
+          <b className="acc_resultat">
             <span>Natija:</span> Modul orqali o’qituvchining shaxsiy uslubi va
             swing trading (treydingning yana bir uslubi) bilan tanishasiz.
           </b>
@@ -297,7 +297,7 @@ function BasicExample() {
             <li>Demo akkaunt amaliyot</li>
             <li>Penny stocks – Test</li>
           </ul>
-          <b>
+          <b className="acc_resultat">
             <span>Natija:</span> Modul orqali kichik summa bilan qanday uslubda
             ishlash haqida tavsiyalarga ega bo'lasiz.
           </b>
@@ -316,7 +316,7 @@ function BasicExample() {
             <li>Bankda hisob raqami ochish - onlayn</li>
             <li>Rezidentlik olish - onlayn</li>
           </ul>
-          <b>
+          <b className="acc_resultat">
             <span>Natija:</span> Modul orqali TD Ameritrade brokerdan ro’yxatdan
             o’tish va kerakli hujjatlarni tayyorlashni o'rganasiz
           </b>
@@ -336,7 +336,7 @@ function BasicExample() {
             <li>Transferwise</li>
             <li>Broker va investitsiya platformalarini tanlash</li>
           </ul>
-          <b>
+          <b className="acc_resultat">
             <span>Natija:</span> Modul orqali Interactive brokers'dan ro’yxatdan
             o’tish, onlayn bepul treyding platformani ishlatish, yangi broker
             akkauntlarni tekshirish va tanlash haqida ma’lumotlarni olishingiz
@@ -354,7 +354,7 @@ function BasicExample() {
             <li>Treyding vositalar</li>
             <li>Treyder qachon investitsiya olishi kerak?</li>
           </ul>
-          <b>
+          <b className="acc_resultat">
             <span>Natija:</span> Modul orqali treyder uslublari, savdo uchun
             kerakli tavsiya va vositalar, shuningdek treyder qachon investordan
             pul olsa bo’lishi haqida tushunchalarga ega bo'lasiz.
@@ -372,7 +372,7 @@ function BasicExample() {
             <li>Stop'ni qayerga qo’yish kerak?</li>
             <li>Risk menejment reja</li>
           </ul>
-          <b>
+          <b className="acc_resultat">
             <span>Natija:</span> Modul orqali savdodagi tavakkal (risk)ni
             aniqlash, boshqarish va unga yarasha foydani aniqlashni o'rganasiz.
           </b>
@@ -388,7 +388,7 @@ function BasicExample() {
             <li>Treyding uchun eng zo’r kitob</li>
             <li>KPI qo’yish</li>
           </ul>
-          <b>
+          <b className="acc_resultat">
             <span>Natija</span>Modul orqali savdolarni to’g’ri boshqarish,
             daromadni saqlab qolish va oshirish uchun kerakli bilimlarga ega
             bo'lasiz.
@@ -409,7 +409,7 @@ function BasicExample() {
             <li>Psixologik intizomlar</li>
             <li>Treyding psixologiyasi</li>
           </ul>
-          <b>
+          <b className="acc_resultat">
             <span>Natija:</span> Modul orqali savdolar vaqtida treyder o’zini
             hissiy jihatdan qanday ushlashi kerakligi haqida bilimlarga ega
             bo'lasiz.

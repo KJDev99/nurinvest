@@ -61,43 +61,47 @@
   background: url('./Components/Imgs/main bg.jpg');
 } */
 
-.section__items{
+.section__items {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.section__item{
+.section__item {
   border: 1px solid red;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 200px;
   padding: 0px 10px;
-  background: rgb(0,0,0);
-  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(31,65,71,1) 100%);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(31, 65, 71, 1) 100%
+  );
   color: white;
   border-radius: 10px;
   position: relative;
 }
-.question__icons{
+.question__icons {
   position: absolute;
   right: 10px;
   top: 10px;
   font-size: 25px;
   background: transparent;
 }
-.section_title{
+.section_title {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 40px;
   padding-bottom: 60px;
 }
-.section_title h2{ 
+.section_title h2 {
   color: white;
   text-transform: uppercase;
   text-align: center;
-  display:inline-block;
+  display: inline-block;
   transition-property: transform;
   transition: 0.25s ease;
   margin: 20px auto;
@@ -107,13 +111,13 @@
 }
 
 .section_title h2::after {
-  content: '';
+  content: "";
   border-top: 3px solid rgb(255, 0, 0);
   width: 100%;
   position: absolute;
   display: block;
   transform: rotateY(90deg);
-  transition:transform 0.25s linear;
+  transition: transform 0.25s linear;
 }
 .section_title h2:hover {
   transform: scale(1);
@@ -122,23 +126,27 @@
   transform: rotate(0deg);
 }
 
-.section_other-item{
+.section_other-item {
   border: 1px solid red;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 120px;
   padding: 0px 10px;
-  background: rgb(0,0,0);
-  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(31,65,71,1) 100%);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(31, 65, 71, 1) 100%
+  );
   color: white;
   border-radius: 10px;
   margin-top: 40px;
 }
-.section__button{
+.section__button {
   box-shadow: inset 0 0 0 0 #54b3d6;
   color: #54b3d6;
-  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   margin-top: 40px;
   padding: 10px;
   background: transparent;
@@ -147,12 +155,12 @@
   margin-bottom: 60px;
   border-radius: 5px;
 }
-.section__button a{
+.section__button a {
   text-decoration: none;
   color: red;
   font-weight: 700;
 }
-.section__button a:hover{
+.section__button a:hover {
   text-decoration: none;
   color: red;
   font-weight: 700;
@@ -166,18 +174,18 @@
   box-shadow: inset 400px 0 0 0 green;
   color: white;
 }
-.parent_btn{
-  display: flex; 
+.parent_btn {
+  display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.App{
-  background: url('./Components/Imgs/main bg.jpg');
+.App {
+  background: url("./Components/Imgs/main bg.jpg");
   padding-bottom: 60px;
 }
 
-.section_four__item{
+.section_four__item {
   border: 1px solid red;
   display: flex;
   align-items: center;
@@ -185,8 +193,12 @@
   padding: 20px 20px;
   margin: 0;
   margin: 20px;
-  background: rgb(0,0,0);
-  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(31,65,71,1) 100%);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(31, 65, 71, 1) 100%
+  );
   color: white;
   border-radius: 10px;
   height: min-content;
@@ -212,14 +224,15 @@
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
-.flip-card-front, .flip-card-back {
+.flip-card-front,
+.flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -228,7 +241,11 @@
 }
 
 .flip-card-front {
-  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(31,65,71,1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(31, 65, 71, 1) 100%
+  );
   color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
@@ -236,8 +253,12 @@
 }
 
 .flip-card-back {
-  background: rgb(31,65,71);
-background: linear-gradient(90deg, rgba(31,65,71,1) 0%, rgba(0,0,0,1) 100%);
+  background: rgb(31, 65, 71);
+  background: linear-gradient(
+    90deg,
+    rgba(31, 65, 71, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
   color: white;
   transform: rotateY(180deg);
   display: flex;
@@ -245,6 +266,35 @@ background: linear-gradient(90deg, rgba(31,65,71,1) 0%, rgba(0,0,0,1) 100%);
   text-align: justify;
   padding: 10px;
 }
-.flip-card-back p{
+.flip-card-back p {
   font-size: 14px;
+}
+
+.accordion-item {
+  background: rgb(31, 65, 71);
+  background: linear-gradient(
+    90deg,
+    rgba(31, 65, 71, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  color: white ;
+}
+.accordion_list li{
+  list-style: none;
+}
+.acc_resultat span{
+  color: goldenrod;
+}
+.accordion-button:not(.collapsed) {
+  color: goldenrod !important;
+  background-color: #123 !important;
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.accordion-button{
+  background: #123 !important ;
+  color: goldenrod !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  color: red !important;
 }
