@@ -454,3 +454,8 @@
   text-decoration: none;
   color: #FFF;
 }
+@media screen and (max-width: 768px) {
+  .flip-card-back p {
+    font-size: 12px;
+}
+}

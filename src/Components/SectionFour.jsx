@@ -1,5 +1,7 @@
 import React from "react";
 import Fade from 'react-reveal/Fade';
+import { Nav } from 'react-bootstrap';
+// import Standart from './Standart';
 
 function SectionFour(props) {
   return (
@@ -45,7 +47,9 @@ function SectionFour(props) {
                   <p className="p">199 $</p>
                   <p className="p2">179 $</p>
                   <span>149 $</span>
-                  <button> <a className="textDecNone" href="https://haloltreydingvainvestitsiya.getcourse.ru/pl/lite/widget/script?id=702999"> sotib olish</a></button>
+                  <button>  
+                    <a className="textDecNone" href="https://halol-investitsiya-standart-tarif.netlify.app/">sotib olish</a>
+                  </button>
                 </div>
 
 
@@ -88,7 +92,7 @@ function SectionFour(props) {
                   <p className="p">299 $</p>
                   <p className="p2">259 $</p>
                   <span>209 $</span>
-                  <button> <a className="textDecNone" href="https://haloltreydingvainvestitsiya.getcourse.ru/pl/lite/widget/script?id=703020"> sotib olish</a></button>
+                  <button> <a className="textDecNone" href="https://halol-investitsiya-vip-tarif.netlify.app/"> sotib olish</a></button>
                 </div>
               </ul>
             </div>
@@ -129,7 +133,7 @@ function SectionFour(props) {
                     <p className="p">499 $</p>
                     <p className="p2">389 $</p>
                     <span>349 $</span>
-                    <button> <a className="textDecNone" href="https://haloltreydingvainvestitsiya.getcourse.ru/pl/lite/widget/script?id=703023"> sotib olish</a></button>
+                    <button> <a className="textDecNone" href="https://halol-investitsiya-premium-tarif.netlify.app/"> sotib olish</a></button>
                   </div>
 
                 </ul>
