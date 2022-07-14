@@ -34,6 +34,10 @@ function SectionFour(props) {
                   <li>Modul - 17: TD Ameritrade - Real akkaunt</li>
                   <li>Modul - 18: Interactive Brokers - Real hisob raqam</li>
                   <li>Modul - 19: Kerakli ma’lumotlar</li>
+                  <li className="deleteline">Modul - 20: Risk menejment</li>
+                  <li className="deleteline">Modul - 21: Treyd menejment</li>
+                  <li className="deleteline">Modul - 22: Ruhiy holat - Psixologiya</li>
+                  <li className="deleteline">Modul - 23: Bonus</li>
                 </ul>
 
                 <div className="courses__price col-12">
@@ -41,7 +45,7 @@ function SectionFour(props) {
                   <p className="p">199 $</p>
                   <p className="p2">179 $</p>
                   <span>149 $</span>
-                  <button>sotib olish</button>
+                  <button> <a className="textDecNone" href="https://haloltreydingvainvestitsiya.getcourse.ru/pl/lite/widget/script?id=702999"> sotib olish</a></button>
                 </div>
 
 
@@ -72,6 +76,8 @@ function SectionFour(props) {
                 <li>Modul - 19: Kerakli ma’lumotlar</li>
                 <li>Modul - 20: Risk menejment</li>
                 <li>Modul - 21: Treyd menejment</li>
+                <li className="deleteline">Modul - 22: Ruhiy holat - Psixologiya</li>
+                <li className="deleteline">Modul - 23: Bonus</li>
 
 
                 <div className="courses__price col-12">
@@ -82,7 +88,7 @@ function SectionFour(props) {
                   <p className="p">299 $</p>
                   <p className="p2">259 $</p>
                   <span>209 $</span>
-                  <button>sotib olish</button>
+                  <button> <a className="textDecNone" href="https://haloltreydingvainvestitsiya.getcourse.ru/pl/lite/widget/script?id=703020"> sotib olish</a></button>
                 </div>
               </ul>
             </div>
@@ -123,7 +129,7 @@ function SectionFour(props) {
                     <p className="p">499 $</p>
                     <p className="p2">389 $</p>
                     <span>349 $</span>
-                    <button>sotib olish</button>
+                    <button> <a className="textDecNone" href="https://haloltreydingvainvestitsiya.getcourse.ru/pl/lite/widget/script?id=703023"> sotib olish</a></button>
                   </div>
 
                 </ul>
